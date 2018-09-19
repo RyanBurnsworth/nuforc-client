@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 
 # scrapes the data from the webpage's table
 class Scraper:
-	sData = StoreData()
 	def __init__(self, baseURL):
 		self.scrapeURL(baseURL)
 		self.sData = StoreData()
