@@ -1,12 +1,12 @@
 from checkLatest import CheckLatest
 from scraper import Scraper
 
-class NUFORCBOT:
+class NUFORC_Client:
 	def __init__(self):
 		self.checkLatest = CheckLatest()
 
-	def startNUFORCBOT(self):
-		print "[*] Starting NUFORC BOT ...\n\n"
+	def startNUFORC_Client(self):
+		print "[*] Starting NUFORC Client ...\n\n"
 		print "[*] Checking For Update...\n\n"
 		
 		if not self.checkLatest.shouldUpdate():
@@ -19,8 +19,8 @@ class NUFORCBOT:
 			print "[*] Latest URL: " + latestURL
 			scraper = Scraper(latestURL)
 
-nuforcbot = NUFORCBOT()
-nuforcbot.startNUFORCBOT()
+nuforcClient = NUFORC_Client()
+nuforcClient.startNUFORC_Client()
  
 		
 
