@@ -4,7 +4,7 @@ class Config:
 		self.BASE_NUFORC_URL = "http://www.nuforc.org/webreports/ndxp"
 		
 		# Link To Your PHP/MySQL script
-		self.SERVER_URL = "http://www.YOURDOMAINNAME.com/ufosightings/nuforc.php?"
+		self.SERVER_URL = "http://www.YOURDOMAINNAME.com/ufosightings/storeSightingRecord.php?"
 
 		# Filename where the lasted date updated is stored
 		self.LAST_UPDATED = "lastRead.txt"
